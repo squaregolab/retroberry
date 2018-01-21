@@ -1,0 +1,19 @@
+Documentation Borne d’arcade
+
+  Retroberry est une nouvelle génération de borne d'arcade des années 70. Avant la réalisation de la borne, 
+il a était nécessaire de réaliser un model en 3D selon certaines dimensions à respecter. Le model 3D à été
+conçu grâce à SketchUp, un logiciel de modelisation 3D. Une fois la première modélisation réalisée, un prototype en taille
+réduite est réalisé, pour permettre de corriger d'éventuelle problème pour le version taille réelle.
+
+  Cette borne d'arcade fonctionne grâce à une raspberry pi 2, sous le système d'exploitation Recalbox. Les joysticks et les boutons sont
+directement branchés sur le port GPIO de la carte Raspberry, cela permet une gestion individuel de chaque boutons et mouvement
+des joysticks. L'écran que nous utilisons est de type cathodique, il est donc connecter sur le jack de la raspberry qui nous permet
+d'avoir une sortie vidéo analogique et ainsi pouvoir brancher sur la télévision en composite.
+
+ Pour permettre un meilleur maintient de la structure de la borne d'arcade, j'ai rajouté un système de vissage.
+ 
+  En ce qui concerne la borne en taille réelle, une convertion de fichier est au préalable nécessaire pour l'intégrer sur
+ le logiciel Vcarve de la fraiseuse. C'est sur ce logiciel qu'a été réalisé différents tests du système d'emboîtage. Une fois les bons
+ réglages trouvés et les paramètres indiqués, le G-code, pour les tracés, est enregistré et envoyé sur la fraiseuse.
+ Les découpes enfin terminées, place au montage de la borne et des éléments nécessaire à son fonctionnement, tel que la Télé,
+ les boutons, la raspberry et les joysticks.
