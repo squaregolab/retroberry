@@ -17,3 +17,6 @@ d'avoir une sortie vidéo analogique et ainsi pouvoir brancher sur la télévisi
  réglages trouvés et les paramètres indiqués, le G-code, pour les tracés, est enregistré et envoyé sur la fraiseuse.
  Les découpes enfin terminées, place au montage de la borne et des éléments nécessaire à son fonctionnement, tel que la Télé,
  les boutons, la raspberry et les joysticks.
+ 
+ Lien github pour connecter les 2 joysticks ainsi que les boutons sur le port GPIO de la raspberry Pi 2 : 
+ https://github.com/recalbox/recalbox-os/wiki/GPIO-controllers-(FR)
